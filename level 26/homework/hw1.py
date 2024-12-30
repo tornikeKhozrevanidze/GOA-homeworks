@@ -7,3 +7,11 @@ empty = 0
 for i in list1:
     empty += i
 print(empty / 20)
+
+a = 0
+
+for i in list1:
+   b = list1.count(i)
+   if b > a:
+       a = b
+print(a)
